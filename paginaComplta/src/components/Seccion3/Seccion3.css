@@ -5,6 +5,7 @@
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
+    padding: 100px 0;
 }
 .contenedor1s3{
     display: grid;

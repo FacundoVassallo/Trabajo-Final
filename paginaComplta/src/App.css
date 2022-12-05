@@ -17,3 +17,7 @@ h3{
 b{
   font-weight: 800;
 }
+section{
+  width: 100%;
+  padding: 100px 0;
+}
