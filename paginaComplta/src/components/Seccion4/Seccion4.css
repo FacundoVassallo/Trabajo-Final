@@ -1,0 +1,131 @@
+.scuatro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.contenedor1s4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton4{
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-weight: 800;
+    font-size: 1rem;
+}
+.boton4:hover{
+    background-color: rgb(48, 47, 47);
+    color: #F4DC4C;
+    cursor: pointer;
+}
+.abs4{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.contenedor2s4{
+    padding: 40px;
+    
+}
+.contenedor3s4{
+    padding-left: 20px;
+    border-left: 2px solid #f4dc4c;
+}
+.d4s4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    width: 100%;
+
+}
+.dh4s4{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    text-align:end;
+    width: 1250px;
+}
+.contenedor5s4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.dh6s4{
+    display: flex;
+    justify-content: space-between;
+}
+.dhrs4{
+    display: flex;
+    border: 1px solid rgb(241, 239, 239);
+    background-color: rgb(241, 239, 239);
+    width: 600px;
+    height: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.hr1s4{
+    background-color: #F4DC4C;
+    width: 65%;
+    height:100%;
+    Border:2px solid #F4DC4C;
+    border-radius: 5px;
+}
+.hr2s4{
+    background-color: #F4DC4C;
+    width: 95%;
+    height:100%;
+    Border:2px solid #F4DC4C;
+    border-radius: 5px;
+}
+.hr3s4{
+    background-color: #F4DC4C;
+    width: 80%;
+    height:100%;
+    Border:2px solid #F4DC4C;
+    border-radius: 5px;
+}
+.hr4s4{
+    background-color: #F4DC4C;
+    width: 70%;
+    height:100%;
+    Border:2px solid #F4DC4C;
+    border-radius: 5px;
+}
+.hr5s4{
+    background-color: #F4DC4C;
+    width: 60%;
+    height:100%;
+    Border:2px solid #F4DC4C;
+    border-radius: 5px;
+}
+.hr6s4{
+    background-color: #F4DC4C;
+    width: 99%;
+    height:100%;
+    Border:2px solid #F4DC4C;
+    border-radius: 5px;
+}
+.h4s4{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.h6s4{
+    background-color: white;
+}
+.h5s4{
+    font-size: 1.5rem;
+}
+.hrs4{
+    margin: 20px 0px;
+}
+.dbuttons4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
