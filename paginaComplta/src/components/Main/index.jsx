@@ -5,6 +5,7 @@ import {Seccion1} from '../Seccion1/index'
 import {Seccion2} from '../Seccion2/index'
 import {Seccion3} from '../Seccion3/index'
 import {Seccion4} from '../Seccion4/index'
+import {Seccion5} from '../Seccion5/index'
 import {Seccion6} from '../Seccion6/index'
 
 
@@ -16,6 +17,7 @@ const Main = () => {
             <Seccion2/>
             <Seccion3/>
             <Seccion4/>
+            <Seccion5/>
             <Seccion6/>
         </div>
     )

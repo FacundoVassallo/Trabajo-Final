@@ -1,0 +1,24 @@
+.scinco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: rgb(241, 239, 239);
+}
+.ds5{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.dimgs5{
+    padding: 10px;
+}
+.imgs5{
+    width: 400px;
+    height: 400px;
+}
