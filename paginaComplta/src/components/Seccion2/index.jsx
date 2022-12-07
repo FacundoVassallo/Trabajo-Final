@@ -10,7 +10,7 @@ const Seccion2 = () => {
                 <div className="contenedor1s2">
                     <div className="d1s2">
                         <h4 className="h4s2">Hola, soy <b className="bs2">Facundo Vassallo</b></h4>
-                        <p className="ps2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet non vitae placeat aperiam ad vel illo quo! Exercitationem adipisci quisquam vel, culpa asperiores reprehenderit maxime minima aut, impedit molestiae distinctio?</p>
+                        <p className="ps2">Soy un futuro diseñador y desarrollador, apasionado por el diseño web. Disfruto desarrollando sitios web simples, limpios y elegantes que brindan un valor real al usuario final. busco sefuir aprendiendo y mejorando para relizar un trabajo excepcional. Entregar el trabajo dentro del tiempo y el presupuesto que cumpla con los requisitos del cliente es mi lema.</p>
                     </div>
                     <div className="d2s2">
                         <div className="sd1s2"><h1 className="h1s2">1</h1></div>
