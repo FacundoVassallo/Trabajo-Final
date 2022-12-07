@@ -11,8 +11,8 @@ const Seccion5 = () => {
             <div className='navbar'>
                 <nav>
                     <NavLink to='/' className='navlink' >Imagenes</NavLink>
-                    <NavLink to='/videos' className='navlink'>Imagenes</NavLink>
-                    <NavLink to='/historia' className='navlink'>Imagenes</NavLink>
+                    <NavLink to='/videos' className='navlink'>Video</NavLink>
+                    <NavLink to='/Descripcion' className='navlink'>Historia</NavLink>
                 </nav>
             </div>
         </section>
