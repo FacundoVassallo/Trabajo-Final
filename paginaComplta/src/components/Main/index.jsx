@@ -7,6 +7,8 @@ import {Seccion3} from '../Seccion3/index'
 import {Seccion4} from '../Seccion4/index'
 import {Seccion5} from '../Seccion5/index'
 import {Seccion6} from '../Seccion6/index'
+import {Imagenes} from '../pages/Imgenes/index'
+import {Route,Routes,BrowserRouter,NavLink} from 'react-router-dom'
 
 
 const Main = () => {
@@ -17,7 +19,12 @@ const Main = () => {
             <Seccion2/>
             <Seccion3/>
             <Seccion4/>
-            <Seccion5/>
+            <BrowserRouter>
+                <Seccion5/>
+                <Routes>
+                    <Route path='/' element={<Imagenes/>}/>
+                </Routes>
+            </BrowserRouter>
             <Seccion6/>
         </div>
     )
