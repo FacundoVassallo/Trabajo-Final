@@ -1,8 +1,14 @@
 import React from 'react';
+import './Videoss.css';
+import video from '/Users/Facundo/Desktop/TrabajoFinal/paginaComplta/src/components/Video/videoita.mp4'
 
 const Videoss = () => {
     return(
-        <div>Videoss</div>
+        <div className='vidcinco'>
+            <video width='1000' controls >
+                <source src={video} type='video/mp4'/>
+            </video>
+        </div>
     )
 }
 

@@ -55,6 +55,7 @@ textarea{
     color: rgb(48, 47, 47);
     border: 2px solid rgb(48, 47, 47);
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .flecha2{

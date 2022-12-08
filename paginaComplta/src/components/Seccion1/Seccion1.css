@@ -60,6 +60,7 @@ section{
     color: rgb(48, 47, 47);
     border: 2px solid rgb(48, 47, 47);
     cursor: pointer;
+    transition: 0.5s;
 }
 .as1{
     text-decoration: none; 
@@ -81,6 +82,7 @@ section{
 .b2s1:hover{
     background-color: #dabe23;
     cursor: pointer;
+    transition: 0.5s;
 }
 .a2s1{
     color: black;

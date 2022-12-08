@@ -24,6 +24,7 @@
     background-color: rgb(48, 47, 47);
     color: #F4DC4C;
     cursor: pointer;
+    transition: 0.5s;
 }
 .abs4{
     text-decoration: none;
