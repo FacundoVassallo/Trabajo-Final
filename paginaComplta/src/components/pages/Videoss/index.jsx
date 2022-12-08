@@ -5,7 +5,7 @@ import video from '/Users/Facundo/Desktop/TrabajoFinal/paginaComplta/src/compone
 const Videoss = () => {
     return(
         <div className='vidcinco'>
-            <video width='1000' controls >
+            <video width='1000' autoPlay playsInline muted controls >
                 <source src={video} type='video/mp4'/>
             </video>
         </div>
