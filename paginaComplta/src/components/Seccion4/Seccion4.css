@@ -132,3 +132,47 @@
     justify-content: center;
     
 }
+@media(max-width:1200px){
+    .contenedor1s4{
+        flex-direction: column;
+        width: 800px;
+    }
+    .dhrs4{
+        width: 400px;
+    }
+    .dh4s4{
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        text-align:end;
+        width: 850px;
+    }
+}
+
+/*telefono*/
+@media(max-width:500px){
+    .dh6s4{
+        width: 400px;
+    }
+    .contenedor1s4{
+        flex-direction: column;
+        width: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+    h3{
+        padding-left: 20px;
+    }
+    .d4s4{
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    .dh6s4{
+        justify-content: space-between;
+    }
+    .dh4s4{
+        width: 450px;
+    }
+}
+

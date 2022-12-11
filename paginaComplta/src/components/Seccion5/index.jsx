@@ -9,7 +9,7 @@ const Seccion5 = () => {
             <h6>Portfolio</h6>
             <h3>Mis Proyectos Mas Recientes</h3>
             <div className='navbar'>
-                <nav>
+                <nav className='nav5'>
                     <NavLink to='/' className='navlink' >Imagenes</NavLink>
                     <NavLink to='/videos' className='navlink'>Video</NavLink>
                     <NavLink to='/Descripcion' className='navlink'>Historia</NavLink>

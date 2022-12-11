@@ -7,3 +7,11 @@
     background-color: rgb(241, 239, 239);
     padding-bottom: 100px;
 }
+.videoo{
+    width: 1000px;
+}
+@media(max-width:500px){
+    .videoo{
+        width: 400px;
+    }
+}

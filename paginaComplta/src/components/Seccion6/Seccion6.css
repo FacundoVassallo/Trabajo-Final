@@ -71,3 +71,18 @@ textarea{
     font-size: 1.5rem;
     padding-right: 10px;
 }
+@media(max-width:1200px){
+    .snueve{
+        flex-direction: column;
+        text-align: center;
+    }
+    .d2s9{
+        text-align: center;
+        width: 600px;
+        padding-top: 50px;
+        align-items: center;        
+    }
+
+}
+
+

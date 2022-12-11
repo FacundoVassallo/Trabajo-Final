@@ -16,3 +16,8 @@
     font-size: 1.3rem;
     
 }
+@media(max-width:500px){
+    .descinco{
+        padding: 0 100px 100px;
+    }
+}
