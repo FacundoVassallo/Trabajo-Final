@@ -10,6 +10,7 @@ import {Seccion6} from '../Seccion6/index'
 import {Imagenes} from '../pages/Imgenes/index'
 import {Videoss} from '../pages/Videoss/index'
 import {Descripcion} from '../pages/Descripcion/index'
+import { Footer } from '../Footer/index'
 import {Route,Routes,BrowserRouter,NavLink} from 'react-router-dom'
 
 
@@ -30,6 +31,7 @@ const Main = () => {
                 </Routes>
             </BrowserRouter>
             <Seccion6/>
+            <Footer/>
         </div>
     )
 }

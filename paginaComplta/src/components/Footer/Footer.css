@@ -1,0 +1,27 @@
+footer{
+    background-color: rgb(48, 47, 47);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+}
+.h4footer{
+    color: white;
+
+    font-weight: 400;
+}
+.copyfooter{
+    color: white;
+}
+.ufooter{
+    color: #f4dc4c;
+}
+
+@media(max-width:1200px){
+    
+    footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
