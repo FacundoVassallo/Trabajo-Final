@@ -7,6 +7,7 @@ import {Seccion3} from '../Seccion3/index'
 import {Seccion4} from '../Seccion4/index'
 import {Seccion5} from '../Seccion5/index'
 import {Seccion6} from '../Seccion6/index'
+import {Seccion7} from '../Seccion7/index'
 import {Imagenes} from '../pages/Imgenes/index'
 import {Videoss} from '../pages/Videoss/index'
 import {Descripcion} from '../pages/Descripcion/index'
@@ -30,6 +31,7 @@ const Main = () => {
                     <Route path='/Descripcion' element={<Descripcion/>}/>
                 </Routes>
             </BrowserRouter>
+            <Seccion7/>
             <Seccion6/>
             <Footer/>
         </div>

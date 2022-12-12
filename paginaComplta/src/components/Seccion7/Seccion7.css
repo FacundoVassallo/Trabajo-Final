@@ -1,0 +1,60 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 100px 0;
+}
+.divpj{
+    padding: 10px;
+}
+.h3s7{
+    padding-bottom: 20px;
+
+}
+.contenedor2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.inputs7{
+    background-color: white;
+    border: 2px solid rgb(48, 47, 47);
+    border-radius: 20px;
+    width: 40vh;
+    height: 5vh;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.botons7{
+    margin: 20px;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-weight: 800;
+    font-size: 1rem;
+}
+.botons7:hover{
+    background-color: rgb(48, 47, 47);
+    color: #F4DC4C;
+    cursor: pointer;
+    transition: 0.5s;
+}
+@media(max-width:1200px){
+    .contenedor2{
+        grid-template-columns: auto auto;
+    }
+}
+
+/*telefono*/
+@media(max-width:500px){
+    
+    .contenedor2{
+        grid-template-columns: auto;
+    }
+}
