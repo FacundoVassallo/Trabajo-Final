@@ -38,6 +38,13 @@ li{
 @media(min-width:1000px){
     .burger{
         display: none;
+        
+    }
+    .spans7{
+        display: none;
+    }
+    .navheader{
+        display: flex;
     }
 }
 @media(max-width:1200px){
@@ -45,11 +52,15 @@ li{
         width: 18px;
     }
     .navheader{
-        visibility: hidden;
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+        text-align: center;
     }
     header{
         z-index: 50;
-        justify-content:space-evenly;
+        justify-content:space-around;
     }
 }
 
@@ -57,11 +68,6 @@ li{
 @media(max-width:500px){
     header{
         width: 500px;
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-        visibility: visible;
     }
     h3{
         padding-left: 20px;

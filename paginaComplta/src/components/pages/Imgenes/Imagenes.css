@@ -43,10 +43,6 @@
     justify-content: center;
     z-index: 3;
 }
-.ful_img img{
-    width: 90%;
-    max-width: 800px;
-}
 .ful_img span{
     position: absolute;
     top: 5%;

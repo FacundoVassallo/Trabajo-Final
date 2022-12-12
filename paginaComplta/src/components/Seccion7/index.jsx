@@ -24,7 +24,7 @@ function Seccion7() {
 
 
     return(
-        <div className='contenedor'>
+        <div className='contenedor' id='ssiete'>
             <h3 className='h3s7'>Buscador De Rick And Morty</h3>
                 <div>
                     <input className='inputs7' type="text" name='' id='' placeholder='Ingrese nombre a buscar' onChange={(e)=>busqueda(e)}/>
